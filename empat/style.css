@@ -44,8 +44,9 @@
   margin-top: 110px;
 }
 
-.atas .kb {
+.atas .kb a {
   color: #5e5e5e;
+  text-decoration: none;
 }
 
 .bawah h1 {
