@@ -1,0 +1,651 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.logopsis {
+  margin-left: 2vw;
+  margin-top: -2vh;
+}
+
+.logopsis img {
+  width: 16vh;
+  position: absolute;
+  z-index: 3;
+}
+
+.navbar {
+  background-color: #0000aa;
+}
+
+.navbar-nav {
+  margin-left: 12vw;
+  margin-top: 2vh;
+}
+
+.nav-link {
+  margin-right: 1vw;
+}
+
+#prfl {
+  margin-right: 1vw;
+  display: none;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  margin-left: 50vw;
+}
+
+.jadwal {
+  width: 90vw;
+  height: 50vh;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 40px;
+  background: linear-gradient(180deg, #0000aa 0%, rgba(216, 216, 216, 0) 100%), linear-gradient(0deg, #0000aa, #0000aa);
+  margin-bottom: 100px;
+  padding-top: 25px;
+}
+
+.jadwal h2 {
+  color: white;
+  margin-left: 50px;
+}
+
+.jadwal .nt {
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  margin: auto;
+}
+
+.jadwal .nt h1 {
+  align-self: center;
+  color: white;
+}
+
+.jadwal .nt img {
+  width: 20vh;
+}
+
+.jadwal h4,
+h5 {
+  width: 60vw;
+  margin: 10px auto 0;
+  text-align: center;
+  color: white;
+}
+
+.main {
+  background: linear-gradient(180deg, #0000aa 0%, rgba(0, 0, 170, 0.69) 100%);
+  color: white;
+  height: 950px;
+}
+
+.main h3 {
+  padding-top: 40px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+
+#carouselExampleCaptions {
+  width: 90vw;
+  margin: auto;
+}
+
+#carouselExampleCaptions .carousel-inner {
+  border-radius: 30px;
+}
+
+#carouselExampleCaptions .carousel-inner h1 {
+  text-align: center;
+  width: 55vw;
+  margin-left: -10vw;
+}
+
+#carouselExampleCaptions .carousel-inner h4 {
+  margin-left: -10vw;
+  text-align: left;
+  width: -10vw;
+}
+
+.ovr {
+  overflow-x: auto;
+  padding-bottom: 2vh;
+}
+
+.kotak {
+  width: 110vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4vw;
+  margin-top: 40px;
+}
+
+.kotak .kotak1 {
+  width: 35vw;
+  height: 45vh;
+  border-radius: 20px;
+  background-color: silver;
+}
+
+.sponsor .ovr2 {
+  overflow-x: auto;
+  padding-bottom: 4vh;
+}
+
+.sponsor h2 {
+  color: blue;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.isi {
+  width: 120vw;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.sponsor img {
+  width: 18vw;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid blue;
+  margin-right: 50px;
+  border-radius: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #0000aa;
+  margin-top: 10vh;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer .kesatu {
+  height: 140px;
+  margin-top: 40px;
+  margin-left: 25px;
+  line-height: 35px;
+  font-size: 25px;
+}
+
+.footer .kedua {
+  margin-top: 30px;
+  width: 20vw;
+}
+
+.footer .kedua .gambar {
+  width: 10vw;
+  margin: auto;
+}
+
+.footer .kedua .gambar img {
+  width: 10vw;
+}
+
+.footer .kedua .bulat {
+  display: flex;
+  justify-content: space-between;
+  width: 18vw;
+  margin: auto;
+}
+
+.footer .kedua .bulat .bulatbulat {
+  width: 40px;
+  height: 40px;
+  background-color: silver;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+.footer .ketiga {
+  width: 25vw;
+  font-size: 25px;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+@media (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: 40vw;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background: #0000aa;
+    margin-top: 10vh;
+    padding-bottom: 20px;
+    color: white;
+  }
+}
+
+@media (max-width: 999px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-left: 0vw;
+  }
+
+  .nav-link {
+    margin-right: 0vw;
+  }
+
+  #prfl {
+    margin-right: 0;
+    display: contents;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .main {
+    background: linear-gradient(180deg, #0000aa 0%, rgba(0, 0, 170, 0.69) 100%);
+    color: white;
+    height: 110vh;
+  }
+
+  .ovr {
+    overflow-x: auto;
+    padding-bottom: 2vh;
+  }
+
+  .kotak {
+    width: 110vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vw;
+    margin-top: 40px;
+  }
+
+  .kotak .kotak1 {
+    width: 35vw;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: silver;
+  }
+
+  .sponsor .ovr2 {
+    overflow-x: auto;
+    padding-bottom: 4vh;
+  }
+
+  .sponsor h2 {
+    color: blue;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .isi {
+    width: 180vw;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .sponsor img {
+    width: 25vw;
+    padding: 30px;
+    border: 1px solid blue;
+    margin-right: 50px;
+    border-radius: 40px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background: #0000aa;
+    margin-top: 10vh;
+    padding-bottom: 20px;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    line-height: 2vh;
+    font-size: 18px;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    width: 18vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 10vw;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 10vw;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 18vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 25px;
+    height: 25px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 25vw;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-right: 1vw;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  .main {
+    background: linear-gradient(180deg, #0000aa 0%, rgba(0, 0, 170, 0.69) 100%);
+    color: white;
+    height: 100vh;
+  }
+
+  .ovr {
+    overflow-x: auto;
+    padding-bottom: 2vh;
+  }
+
+  .kotak {
+    width: 140vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vw;
+    margin-top: 40px;
+  }
+
+  .kotak .kotak1 {
+    width: 45vw;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: silver;
+  }
+
+  .sponsor .ovr2 {
+    overflow-x: auto;
+    padding-bottom: 4vh;
+  }
+
+  .sponsor h2 {
+    color: blue;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .isi {
+    width: 170vw;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .sponsor img {
+    width: 25vw;
+    padding: 30px;
+    border: 1px solid blue;
+    margin-right: 50px;
+    border-radius: 30px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #0000aa;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 0;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    width: 60vw;
+    margin-top: 40px;
+    margin: 0 auto 10vh;
+    line-height: 35px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    margin: 0 auto 10vh;
+    width: 50vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 20vw;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 20vw;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 60vw;
+    font-size: 25px;
+    margin-top: 40px;
+    line-height: 30px;
+    margin: 0 auto 10vh;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .logopsis img {
+    width: 12vh;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-left: 0vw;
+  }
+
+  .nav-link {
+    margin-right: 0vw;
+  }
+
+  #prfl {
+    margin-right: 0vw;
+    display: block;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .jadwal {
+    width: 90vw;
+    height: 45vh;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 40px;
+    background: linear-gradient(180deg, #0000aa 0%, rgba(216, 216, 216, 0) 100%), linear-gradient(0deg, #0000aa, #0000aa);
+    margin-bottom: 100px;
+    padding-top: 25px;
+  }
+
+  .jadwal h2 {
+    color: white;
+    width: 80vw;
+    margin: 0 auto 2vh;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .jadwal .nt {
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    margin: auto;
+  }
+
+  .jadwal .nt h1 {
+    align-self: center;
+    color: white;
+  }
+
+  .jadwal .nt img {
+    width: 18vh;
+  }
+
+  .jadwal h4,
+  h5 {
+    width: 80vw;
+    margin: 10px auto 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .main {
+    background: linear-gradient(180deg, #0000aa 0%, rgba(0, 0, 170, 0.69) 100%);
+    color: white;
+    height: 70vh;
+  }
+
+  .ovr {
+    overflow-x: auto;
+    padding-bottom: 2vh;
+  }
+
+  .kotak {
+    width: 110vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vw;
+    margin-top: 40px;
+  }
+
+  .kotak .kotak1 {
+    width: 35vw;
+    height: 15vh;
+    border-radius: 10px;
+    background-color: silver;
+  }
+
+  .sponsor .ovr2 {
+    overflow-x: auto;
+    padding-bottom: 4vh;
+  }
+
+  .sponsor h2 {
+    color: blue;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .isi {
+    width: 200vw;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .sponsor img {
+    width: 25vw;
+    padding: 20px;
+    border: 1px solid blue;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #0000aa;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 0;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    width: 90vw;
+    margin-top: 40px;
+    margin: 0 auto 8vh;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    margin: 0 auto 8vh;
+    width: 80vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 20vh;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 20vh;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 80vw;
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+  }
+}

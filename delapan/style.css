@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato";
+}
+
+.logopsis {
+  margin-left: 2vw;
+  margin-top: -2vh;
+}
+
+.logopsis img {
+  width: 16vh;
+  position: absolute;
+}
+
+.navbar {
+  background-color: #0000aa;
+}
+
+.navbar-nav {
+  margin-left: 12vw;
+  margin-top: 2vh;
+}
+
+.nav-link {
+  margin-right: 1vw;
+}
+
+#prfl {
+  margin-right: 1vw;
+  display: none;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  margin-left: 50vw;
+}
+
+.judul {
+  width: 85vw;
+  margin: 15vh auto 6vh;
+}
+
+.tiket {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 85vw;
+  margin: 0 auto 6vh;
+  padding: 4vh 2vw 2vh 2vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tiket .satu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.tiket .satu .psis p {
+  font-size: 20px;
+  color: gray;
+}
+
+.tiket .satu img {
+  width: 8vh;
+  padding: 10px 13px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.tiket .dua {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tiket .dua .tanggal p {
+  font-size: 20px;
+  color: blue;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #0000aa;
+  margin-top: 200vh;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer .kesatu {
+  height: 140px;
+  margin-top: 40px;
+  margin-left: 35px;
+  line-height: 35px;
+  font-size: 25px;
+}
+
+.footer .kedua {
+  margin-top: 30px;
+  width: 20vw;
+}
+
+.footer .kedua .gambar {
+  width: 10vw;
+  margin: auto;
+}
+
+.footer .kedua .gambar img {
+  width: 10vw;
+}
+
+.footer .kedua .bulat {
+  display: flex;
+  justify-content: space-between;
+  width: 18vw;
+  margin: auto;
+}
+
+.footer .kedua .bulat .bulatbulat {
+  width: 40px;
+  height: 40px;
+  background-color: silver;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+.footer .ketiga {
+  width: 25vw;
+  font-size: 25px;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+@media (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: 40vw;
+  }
+}
+
+@media (max-width: 999px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-left: 0vw;
+  }
+
+  .nav-link {
+    margin-right: 0vw;
+  }
+
+  #prfl {
+    margin-right: 0;
+    display: contents;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background: #0000aa;
+    padding-bottom: 20px;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    line-height: 2vh;
+    font-size: 18px;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    width: 18vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 10vw;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 10vw;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 18vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 25px;
+    height: 25px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 20vw;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-right: 1vw;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #0000aa;
+    padding-top: 10vh;
+    padding-bottom: 0;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    width: 60vw;
+    margin-top: 40px;
+    margin: 0 auto 10vh;
+    line-height: 35px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    margin: 0 auto 10vh;
+    width: 50vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 20vw;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 20vw;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 60vw;
+    font-size: 25px;
+    margin-top: 40px;
+    line-height: 30px;
+    margin: 0 auto 10vh;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-left: 0vw;
+  }
+
+  .nav-link {
+    margin-right: 0vw;
+  }
+
+  #prfl {
+    margin-right: 0vw;
+    display: block;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .judul {
+    width: 83vw;
+    margin: 15vh auto 5vh;
+  }
+
+  .judul h1 {
+    font-size: 1.4em;
+  }
+  
+  .tiket {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 85vw;
+    margin: 0 auto 6vh;
+    padding: 4vh 2vw 2vh 2vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .tiket .satu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+  }
+
+  .tiket .satu .psis h2 {
+    font-size: 1em;
+  }
+  
+  .tiket .satu .psis p {
+    font-size: 0.8em;
+    color: gray;
+  }
+  
+  .tiket .satu img {
+    width: 6vh;
+    padding: 5px 8px;
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+  }
+  
+  .tiket .dua {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tiket .dua .duek h3 {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  
+  .tiket .dua .tanggal p {
+    font-size: 0.8em;
+    color: blue;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #0000aa;
+    padding-top: 10vh;
+    padding-bottom: 0;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    width: 90vw;
+    margin-top: 40px;
+    margin: 0 auto 8vh;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    margin: 0 auto 8vh;
+    width: 80vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 20vh;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 20vh;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 80vw;
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 30px;
+    margin: 0 auto 8vh;
+    text-align: center;
+  }
+}
+

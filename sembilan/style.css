@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Lato";
+}
+
+.logopsis {
+  margin-left: 2vw;
+  margin-top: -2vh;
+}
+
+.logopsis img {
+  width: 16vh;
+  position: absolute;
+}
+
+.navbar {
+  background-color: #0000aa;
+}
+
+.navbar-nav {
+  margin-left: 12vw;
+  margin-top: 2vh;
+}
+
+.nav-link {
+  margin-right: 1vw;
+}
+
+#prfl {
+  margin-right: 1vw;
+  display: none;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  margin-left: 50vw;
+}
+
+.hiro img {
+  width: 100vw;
+  height: 85vh;
+}
+
+.versus {
+  width: 85vw;
+  margin: 40px auto 0;
+}
+
+.kota {
+  width: 80vw;
+  margin: 20px auto 30px;
+}
+
+.ip {
+  width: 85vw;
+  border: 1px solid #007aff;
+  background-color: rgba(0, 122, 255, 0.13);
+  margin: 0 auto 50px;
+  border-radius: 20px;
+  padding: 2vh 0 2vh 2vw;
+}
+
+.des {
+  width: 85vw;
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.judul {
+  width: 85vw;
+  margin: 30px auto 20px;
+}
+
+.tiket {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 85vw;
+  margin: 0 auto 6vh;
+  padding: 4vh 2vw 2vh 2vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tiket .satu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.tiket .satu .psis p {
+  font-size: 20px;
+  color: gray;
+}
+
+.tiket .satu img {
+  width: 8vh;
+  padding: 10px 13px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.tiket .dua {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tiket .dua .tanggal p {
+  font-size: 20px;
+  color: white;
+  padding: 0.4vh 4vw;
+  border: 1px solid blue;
+  border-radius: 20px;
+  background-color: #0000aa;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #0000aa;
+  margin-top: 20vh;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer .kesatu {
+  height: 140px;
+  margin-top: 40px;
+  margin-left: 35px;
+  line-height: 35px;
+  font-size: 25px;
+}
+
+.footer .kedua {
+  margin-top: 30px;
+  width: 20vw;
+}
+
+.footer .kedua .gambar {
+  width: 10vw;
+  margin: auto;
+}
+
+.footer .kedua .gambar img {
+  width: 10vw;
+}
+
+.footer .kedua .bulat {
+  display: flex;
+  justify-content: space-between;
+  width: 18vw;
+  margin: auto;
+}
+
+.footer .kedua .bulat .bulatbulat {
+  width: 40px;
+  height: 40px;
+  background-color: silver;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+.footer .ketiga {
+  width: 25vw;
+  font-size: 25px;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+@media (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: 40vw;
+  }
+}
+
+@media (max-width: 999px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-left: 0vw;
+  }
+
+  .nav-link {
+    margin-right: 0vw;
+  }
+
+  #prfl {
+    margin-right: 0;
+    display: contents;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background: #0000aa;
+    padding-bottom: 20px;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    line-height: 2vh;
+    font-size: 18px;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    width: 18vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 10vw;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 10vw;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 18vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 25px;
+    height: 25px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 20vw;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-right: 1vw;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #0000aa;
+    padding-top: 10vh;
+    padding-bottom: 0;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    width: 60vw;
+    margin-top: 40px;
+    margin: 0 auto 10vh;
+    line-height: 35px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    margin: 0 auto 10vh;
+    width: 50vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 20vw;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 20vw;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 60vw;
+    font-size: 25px;
+    margin-top: 40px;
+    line-height: 30px;
+    margin: 0 auto 10vh;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-left: 0vw;
+  }
+
+  .nav-link {
+    margin-right: 0vw;
+  }
+
+  .logopsis img {
+    width: 9vh;
+    position: absolute;
+  }
+
+  #prfl {
+    margin-right: 0vw;
+    display: block;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .hiro img {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  .versus h1 {
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  .kota {
+    width: 80vw;
+    margin: 1vh auto 30px;
+  }
+
+  .ip p {
+    font-size: 0.9em;
+  }
+
+  .des {
+    width: 85vw;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #0000aa;
+    padding-top: 10vh;
+    padding-bottom: 0;
+    color: white;
+  }
+
+  .footer .kesatu {
+    height: 140px;
+    width: 90vw;
+    margin-top: 40px;
+    margin: 0 auto 8vh;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .footer .kedua {
+    margin-top: 30px;
+    margin: 0 auto 8vh;
+    width: 80vw;
+  }
+
+  .footer .kedua .gambar {
+    width: 20vh;
+    margin: auto;
+  }
+
+  .footer .kedua .gambar img {
+    width: 20vh;
+  }
+
+  .footer .kedua .bulat {
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    margin: auto;
+  }
+
+  .footer .kedua .bulat .bulatbulat {
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    margin-top: 20px;
+    border-radius: 100px;
+  }
+
+  .footer .ketiga {
+    width: 80vw;
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 30px;
+    margin: 0 auto 8vh;
+    text-align: center;
+  }
+}
