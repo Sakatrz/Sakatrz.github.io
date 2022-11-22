@@ -354,6 +354,47 @@
     display: none;
   }
 
+  .atas {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin-left: 5vw;
+    margin-top: 15vh;
+  }
+
+  .atas h3{
+    font-size: 0.8em;
+  }
+  
+  .atas .kb {
+    color: #5e5e5e;
+  }
+  
+  .bawah h1 {
+    margin-left: 5vw;
+    width: 80vw;
+    font-size: 1.2em;
+    margin-top: 1vh;
+  }
+
+  .hiro {
+    width: 89vw;
+    margin: 3vh auto 0;
+  }
+  
+  .hiro img {
+    width: 89vw;
+  }
+
+  .paragraf p {
+    width: 90vw;
+    margin: 5vh auto 0;
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+  }
+
   .footer {
     display: flex;
     justify-content: space-around;
